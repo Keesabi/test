@@ -1,0 +1,111 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Amiko&display=swap');
+
+body {
+  font-family:'amiko', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+p {
+  font-family:'amiko', sans-serif;
+  font-size: 1em;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  white-space: normal; 
+}
+
+h1{
+
+padding: 10px ;
+text-align: center;
+
+}
+
+
+.input-group{
+    
+  position: relative;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.input-group input{     
+  color: #2a2929;
+  box-sizing: border-box;
+  padding: 15px;
+  padding-left: 10px;   
+  width: 100%;
+  height: 95%;
+  border-radius: 10px;
+  border-top:none;
+  border-left: none;
+  border-color: #5A6ACF;
+  outline: none ;
+}
+
+.input-group svg {
+    
+    color: rgb(93, 87, 87);
+    width: 2em;
+    height: 2em;
+    position: absolute;
+    left: 30px;
+    top: 50%;
+    transform: translateY(-50%);}
+    
+
+form{ 
+  position: relative;
+  border-radius: 15px;
+  box-shadow: -6px 4px 17.6px 18px rgba(90, 106, 207, 0.57);
+  box-sizing: border-box;
+  margin: 5%;
+  padding: 30px;
+}
+
+.input-group label {
+    position: absolute;
+    left: 20px; /* Adjust the left position based on your design */
+    
+
+    transform: translateY(-50%);
+    font-size: 18px; /* Adjust the font size as needed */
+    color: #000000; /* Adjust the color as needed */
+
+
+    
+  }
+
+input[type="text"], input[type="password"],input[type="email"],input[type="tel"] {
+    display: inline-block;
+    padding-left: 50px;
+    font-size: 20px;
+    font-family:'amiko', sans-serif;
+    
+  }
+
+  .button-container {
+    text-align: center;
+  }
+  
+  .button {
+    margin-top: 5px;
+    display: inline-block; /* Make the anchor behave like a block element */
+    padding: 13px 22px;
+    font-size: 1.3em;
+    text-decoration: none;
+    color: #ffffff;
+    background: linear-gradient(311deg, #5A6ACF 15.74%, rgba(106, 128, 231, 0.86) 73.66%);
+    border-radius: 90px;
+    transition: background-color 0.3s ease;
+  }
+  
+

@@ -1,0 +1,131 @@
+/* Blog.css */
+@import url('https://fonts.googleapis.com/css2?family=Amiko&display=swap');
+
+body {
+    font-family:'amiko', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  #container {
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 20px;
+    border-bottom: 1px solid #ccc; /* Border between sections */
+    font-size: 0; /* Remove default inline-block spacing */
+    text-align: center; /* Center the container content */
+  }
+  
+  section {
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: inline-block;
+    vertical-align: top;
+    width: calc(30% - 10px); /* Adjust width for equal spacing between sections */
+    margin: 0 25px; /* Reduced spacing between sections */
+    border: 1px solid #ccc; /* Border for each section */
+    border-radius: 15px; /* Rounded edges */
+    box-sizing: border-box;
+    font-size: 1rem; /* Reset font size for section content */
+    transition: box-shadow 0.3s ease; /* Add transition for smooth shadow change */
+  }
+  
+  section:hover {
+    transform: scale(1.01); /* Increase size on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add a stronger shadow on hover */
+  }
+  
+  
+  
+  img {
+    border-radius: 20px;
+    max-width: 100%;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  
+  
+  h2 {  
+    font-family:'amiko', sans-serif;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    white-space: normal; /* Allow text to wrap to the next line */
+  }
+  
+  p {
+    font-family:'amiko', sans-serif;
+    font-size: 1em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    white-space: normal; /* Allow text to wrap to the next line */
+  }
+  
+  
+  
+  .button {
+    
+    padding: 12px 20px; /* Adjust the padding to make the button bigger */
+    font-size: 1em; /* Adjust the font size to make the text bigger */
+    text-decoration: none;
+    color: #ffffff;
+    background: rgb(106,128,231);
+    background: linear-gradient(149deg, rgba(106,128,231,0.9473039215686274) 40%, rgba(63,198,93,1) 83%);
+    border-radius: 90px;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: rgba(22,204,236,0.542454481792717);
+  }
+  
+  
+  
+  h1{
+  
+  padding: 10px ;
+  text-align: center;
+  
+  }
+  
+  
+  .input-group{
+  
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    justify-content: center;
+  
+    box-sizing: border-box;
+  }
+  
+  .input-group input{ 
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    border-top:none;
+    border-left: none;
+    border-color: #5A6ACF;
+    outline: none ;
+  }
+  
+  form{ 
+    position: relative;
+    border-radius: 15px;
+    box-shadow: -6px 4px 17.6px 18px rgba(90, 106, 207, 0.57);
+    box-sizing: border-box;
+    margin: 5%;
+    padding: 30px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
